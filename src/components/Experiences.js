@@ -24,7 +24,7 @@ function Experiences(props) {
                 <div className='flex flex-col md:flex-row gap-8 mt-4'>
                     <div className={`bg-${props.theme} w-full md:w-2/6 shadow-md rounded`}>
                         <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-                            <img src='m1-logo.png' className='ml-4' />
+                            <img src='m1-logo.png' className='ml-4' alt='m1 logo' />
                         </div>
                         <div className='p-4'>
                             <h1 className='text-xl font-medium'>M1 Finance</h1>
@@ -35,7 +35,7 @@ function Experiences(props) {
 
                     <div className={`bg-${props.theme} w-full md:w-2/6 shadow-md rounded`}>
                         <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-                            <img src='nike-logo.png' layout="fill" objectFit="cover" className='mt-16 px-4' />
+                            <img src='nike-logo.png' alt='nike logo' layout="fill" objectFit="cover" className='mt-16 px-4' />
                         </div>
                         <div className='p-4'>
                             <h1 className='text-xl font-medium'>Nike NYC</h1>
@@ -46,7 +46,7 @@ function Experiences(props) {
 
                     <div className={`bg-${props.theme} w-full md:w-2/6 shadow-md rounded`}>
                         <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-                            <img src='bunny-macbook.png' className='object-cover h-full mx-24' />
+                            <img src='bunny-macbook.png' alt='bunny with macbook' className=' object-cover h-full mx-24' />
                         </div>
                         <div className='p-4'>
                             <h1 className='text-xl font-medium'>MarketFly LLC. (Now Terminated)</h1>
@@ -59,7 +59,7 @@ function Experiences(props) {
                 <div className='flex flex-col md:flex-row gap-8 mt-4'>
                     <div className={`bg-${props.theme} w-full md:w-2/6 shadow-md rounded`}>
                         <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-                            <img src='codeucate-logo.png' className='mt-24 px-4' />
+                            <img src='codeucate-logo.png' alt='codeucate logo' className='mt-24 px-4' />
                         </div>
                         <div className='p-4'>
                             <h1 className='text-xl font-medium'>Codeucate</h1>
@@ -70,7 +70,7 @@ function Experiences(props) {
 
                     <div className={`bg-${props.theme} w-full md:w-2/6 shadow-md rounded`}>
                         <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-                            <img src='apple-logo.png' className='mx-auto' />
+                            <img src='apple-logo.png' alt='apple logo' className='mx-auto' />
                         </div>
                         <div className='p-4'>
                             <h1 className='text-xl font-medium'>Apple Fifth Ave Store</h1>
@@ -81,7 +81,7 @@ function Experiences(props) {
 
                     <div className={`bg-${props.theme} w-full md:w-2/6 shadow-md rounded`}>
                         <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
-                            <img src='bmcc-logo-black.png' className='mt-24 px-4' />
+                            <img src='bmcc-logo-black.png' alt='bmcc logo' className='mt-24 px-4' />
                         </div>
                         <div className='p-4'>
                             <h1 className='text-xl font-medium'>Borough of Manhattan Community College</h1>

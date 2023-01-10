@@ -39,7 +39,7 @@ function Profile(props) {
     return (
         <div className='min-h-screen text-center mt-4 flex flex-col justify-center '>
             <div className="mx-auto bg-gradient-to-b from-blue-400 rounded-full w-48 h-48 relative overflow-hidden md:h-96 md:w-96 mb-2 mt-12 no-highlight">
-                <img src='/avatar.png' className='mx-auto' />
+                <img src='/avatar.png' className='mx-auto' alt='avatar' />
             </div>
             <h1 className='text-3xl md:text-5xl font-semibold'>Myat Thu Ko (Tony)</h1>
             <h3 className='text-xl md:text-2xl'>iOS Developer</h3>
