@@ -27,7 +27,6 @@ function Education(props) {
                     ) : (
                         <img src='ccny-logo-white.png' className='w-48' alt='ccny-logo-white' />
                     )}
-                    <br />
                     <h2 className='text-2xl'>Bachelor of Science</h2>
                     <ul class="list-outside list-disc">
                         <li>Computer Science Major</li>
