@@ -1,5 +1,40 @@
 .App {
   text-align: center;
+  font-family: 'Times New Roman', Times, monospace;
+}
+
+.dark-mode {
+  background-color: rgb(39 39 42);
+  /* bg-zinc-800 */
+  color: rgb(212 212 216);
+  /* bg-zinc-300 */
+}
+
+.light-mode {
+  background-color: rgb(212 212 216);
+  color: rgb(39 39 42);
+}
+
+.bg-dark {
+  background-color: rgb(63 63 70);
+  /* bg-zinc-700 */
+}
+
+.bg-light {
+  background-color: rgb(212 212 216);
+  /* bg-zinc-300 */
+}
+
+.linkedin-icon {
+  color: #0077B5;
+}
+
+.linkedin-icon:hover {
+  background: linear-gradient(to right, #0077B5, #00CBE5);
+}
+
+.no-highlight {
+  user-select: none;
 }
 
 .App-logo {
@@ -32,6 +67,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
