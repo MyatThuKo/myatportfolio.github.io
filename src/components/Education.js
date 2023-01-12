@@ -31,7 +31,8 @@ function Education(props) {
                     <ul class="list-outside list-disc">
                         <li>Computer Science Major</li>
                         <li>GPA - 3.59</li>
-                        <li>Aug 2020 - May 2021 && Aug 2022 - Present</li>
+                        <li>Aug 2020 - May 2021</li>
+                        <li>Aug 2022 - Present</li>
                     </ul>
                 </div>
 
