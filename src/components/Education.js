@@ -20,7 +20,7 @@ function Education(props) {
                     <MdKeyboardArrowDown size={32} className='mt-2' />}
             </div>
 
-            <div className='mt-4 flex flex-col md:flex-row gap-2 hidden' ref={dropdownRef}>
+            <div className={`mt-4 flex flex-col md:flex-row gap-2 ${dropdownOpen ? 'hidden' : ''}`} ref={dropdownRef}>
                 <div className={`bg-${props.theme} w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center gap-1`}>
                     {props.theme === 'light' ? (
                         <img src='ccny-logo-black.png' className='w-48' alt='ccny-logo-black' />
@@ -31,8 +31,7 @@ function Education(props) {
                     <ul class="list-outside list-disc">
                         <li>Computer Science Major</li>
                         <li>GPA - 3.59</li>
-                        <li>Aug 2020 - May 2021</li>
-                        <li>Aug 2022 - Present</li>
+                        <li>Aug 2020 - Present</li>
                     </ul>
                 </div>
 

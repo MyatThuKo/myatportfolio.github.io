@@ -12,7 +12,7 @@ function Navbar(props) {
 
                 <a
                     className={`px-4 py-2 bg-${props.theme} hover:bg-gradient-to-r ${props.theme === 'light' ? 'from-rose-300 to-sky-300' : 'from-rose-600 to-sky-600'
-                        } shadow-lg rounded-md ml-8`}
+                        } shadow-lg rounded-md ml-8 text-lg font-bold`}
                     href="https://drive.google.com/file/d/1R-r_dFjWV8_59V4-sQUfrifEI4ggXEP2/view?usp=share_link"
                     target="_blank"
                     rel="noreferrer"
