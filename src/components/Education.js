@@ -30,7 +30,7 @@ function Education(props) {
                     <h2 className='text-2xl'>Bachelor of Science</h2>
                     <ul class="list-outside list-disc">
                         <li>Computer Science Major</li>
-                        <li>GPA - 3.59</li>
+                        <li>GPA - 3.62</li>
                         <li>Aug 2020 - Present</li>
                     </ul>
                 </div>
